@@ -35,6 +35,9 @@ for i in range(1):
 
     ok = OkEx(cfg)
     price = ok.get_price()
+    if price <= 0:
+        break
+
     time.sleep(1)
 
     ok.sync_account()
