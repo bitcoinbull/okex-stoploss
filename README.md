@@ -35,7 +35,7 @@ cfg.close_pos_slippage = 0.001 # 平仓滑点
 
 ### 部署流程
 
-1. 购买一台阿里云，系统要求Ubuntu
+1. 购买一台国外的服务器(Vultr,DigitalOcean)，国内线路已经被墙，系统要求Ubuntu
 2. 安装python环境，sudo apt-get install python python-pip
 3. 安装requests模块, sudo pip install requests
 4. 把程序拷贝到用户目录下，运行deploy.sh脚本即可，先修改登录需要的username，password，url
